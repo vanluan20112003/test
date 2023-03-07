@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giới thiệu bản thân</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			font-size: 32px;
+			margin-bottom: 10px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		table {
+			border-collapse: collapse;
+			margin-bottom: 20px;
+			width: 100%;
+		}
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: left;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+		form {
+			margin-bottom: 20px;
+		}
+		label {
+			display: block;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		input[type="text"], textarea {
+			border: 1px solid #ddd;
+			padding: 8px;
+			width: 100%;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			border: none;
+			color: #fff;
+			cursor: pointer;
+			padding: 10px 20px;
+		}
+   #nen{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #4CAF50;
+   }
+  .c1{
+    text-align: center;
+  }
+  .gioitinh{
+      display: inline-block;
+  }
+
+  html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+  }
+ 
+  #anh {
+    float: left;
+    margin-right: 20px;
+  }
+  body{
+     color: aliceblue;
+  }
+	</style>
+</head>
+<body>
+  <body id = "nen" style background="https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg"></body>
+	<div class="container">
+		<h1 style="color:rgb(43, 177, 226)">Chào mừng đến với trang giới thiệu của tôi</h1>
+    <div class="c1">
+		<img  id ="anh" src="https://scontent.fsgn13-4.fna.fbcdn.net/v/t39.30808-6/330803212_2987199758253647_7762386019631927130_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=El7yIwBqDXYAX_961MO&_nc_ht=scontent.fsgn13-4.fna&oh=00_AfCNyMDJdxOlsqFsGljgFuaJrhvZlEmi9CkFAZUkwA29Dw&oe=64055058" alt="Ảnh đại diện" width="150px" height="150px">
+    <p style="font-size: 20px;color:lawngreen;">Xin chào, tôi là <strong>Lê Văn Luân</strong>,sinh ngày <strong>20/11/2003</strong>, hiện đang là <strong>sinh viên năm 2, Trường Đại học Sư Phạm Thành Phố Hồ Chí Minh</strong>,tôi là <strong>một lập trình viên đẹp trai</strong>. Tôi yêu thích<strong> tự do</strong> và mong muốn trở thành <strong>lập trình viên đỉnh cao</strong>. Trang web này được tạo ra để giới thiệu bản thân và chia sẻ những kinh nghiệm, kiến thức mà tôi có được.</p>
+  </div>
+  <div class= "2"style="margin-top: 50px;">
+		<h2 style="color: aquamarine;">Thông tin liên hệ</h2>
+  </div>
+		<table>
+			<tr style="color: #fff;">
+				<th style="color: blue;">Email</th>
+				<td><strong>levanluan20112003@gmail.com</strong></td>
+			</tr>
+			<tr>
+				<th style="color: blue;">Điện thoại</th>
+				<td style="color: #fff;"><strong>0352231271</strong></td>
+			</tr>
+			<tr>
+				<th style="color: blue";>Địa chỉ</th>
+				<td style="color: #fff;"><strong>Cao Lỗ, Quận 8, Thành Phố Hồ Chí Minh</strong></td>
+			</tr>
+      <tr>
+				<th style="color: blue";>FaceBook</th>
+				<td ><a style="color: #fff;" href="https://www.facebook.com/vanluan.le.52056">Facebook của tôi</a></td>
+			</tr>
+		</table>
+		<h2 style="color: yellow;">Liên hệ với tôi</h2>
+		<form action="submit-form.php" method="post">
+      <label for="name" style="color: orchid;">Họ và tên:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label>
+        <input style="color: orchid;"  type="radio" name="gender" value="male">
+        Nam
+      </label>
+      <br>
+      <div class="gioitinh">
+      <label>
+        <input type="radio" name="gender" value="female">
+        Nữ
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="gender" value="other">
+        Khác
+      </label>
+    </div>
+      <label style="color: orchid"; for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+    
+      <label style="color: orchid"; for="message">Nội dung tin nhắn:</label>
+      <textarea id="message" name="message" required></textarea><br>
+    
+      <input type="submit" value="Gửi">
+    </form>
+    </div>
+    </body>
+   
